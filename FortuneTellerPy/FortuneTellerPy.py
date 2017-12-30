@@ -26,6 +26,8 @@ while favorite_color == "help":
     print("V = Violet")
     favorite_color = input("What is your favorite ROYGBIV color?\n")
 quitter(favorite_color)
+num_sibs = input("Okay, you are a trooper. One last question: how many siblings do you have?")
+quitter(num_sibs)
 
 
 
