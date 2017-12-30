@@ -13,6 +13,20 @@ print()
 age = input("And your age?")
 print("You don't say! And what's your birth month (by number)?")
 birth_month = input("Like '1' for January, and so on.")
+print("What is your favorite ROYGBIV color?")
+favorite_color = input("I can help if you type 'help'.")
+while favorite_color == "help":
+    #help prompt for favorite colors, with extra prompt
+    print("R = Red")
+    print("O = Orange")
+    print("Y = Yellow")
+    print("G = Green")
+    print("B = Blue")
+    print("I = Indigo")
+    print("V = Violet")
+    favorite_color = input("What is your favorite ROYGBIV color?\n")
+quitter(favorite_color)
+
 
 
 
