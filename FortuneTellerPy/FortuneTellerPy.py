@@ -18,9 +18,9 @@ birth_month = input("Like '1' for January, and so on.\n")
 quitter(birth_month)
 print()
 print("What is your favorite ROYGBIV color?")
-favorite_color = input.lower().strip()("I can help if you type 'help'.\n")
+favorite_color = input("I can help if you type 'help'.\n")
 print()
-while favorite_color == "help":
+while favorite_color.lower() == "help":
     #help prompt for favorite colors, with extra prompt
     print("R = Red")
     print("O = Orange")
@@ -30,13 +30,14 @@ while favorite_color == "help":
     print("I = Indigo")
     print("V = Violet")
     print()
-    favorite_color = input.lower().strip()("What is your favorite ROYGBIV color?\n")
+    favorite_color = input("What is your favorite ROYGBIV color?\n")
 quitter(favorite_color)
 num_sibs = input("Okay, you are a trooper. One last question: how many siblings do you have?\n")
 quitter(num_sibs)
 print()
 
 #Assignments of Retirement
+age = age.strip()
 if age % 2 == 0:
     years_to_retire = "14"
 elif age % 2 == 1:
@@ -45,6 +46,7 @@ else:
     years_to_retire = "239,102,839,494,039,392,038,174,777,773,824 (2.39 x 10^32)"
 
 #Vacation Home Assignments
+num_sibs = num_sibs.strip()
 if num_sibs == 0:
     vacation_home = "nowhere special, just Cabo San Lucas"
 elif num_sibs == 1:
@@ -59,6 +61,7 @@ else:
     vacation_home = "on a rapidly melting artic glacier"
     
 #Mode of transportation assignment
+favorite_color = favorite_color.strip().lower()
 if (favorite_color == "r" or favorite_color == "red"):
     transit = "rocket boots"
 elif (favorite_color == "o" or favorite_color == "orange"):
@@ -77,6 +80,7 @@ else:
     transit = "some beat up Chuck Taylor All Stars"
 
 #Money in bank assignment
+birth_month = birth_month.strip
 if birth_month >=1 and birth_month < 5:
     money_bank = "100,000.00"
 elif birth_month >=5 and birth_month <9:
@@ -87,11 +91,3 @@ else:
     money_bank = "0.00"
 
 print("{0} {1} will retire in {2} years with ${3} in the bank, a vacation home {4}, and {5}.", first_name, last_name, years_to_retire, money_bank, vacation_home, transit)
-
-
-
-
-
-
-
-
