@@ -38,11 +38,11 @@ print()
 
 #Assignments of Retirement
 if age % 2 == 0:
-    years_to_retire = 14
+    years_to_retire = "14"
 elif age % 2 == 1:
-    years_to_retire = 5
+    years_to_retire = "5"
 else:
-    years_to_retire = 239102839494039392038174777773824
+    years_to_retire = "239,102,839,494,039,392,038,174,777,773,824 (2.39 x 10^32)"
 
 #Vacation Home Assignments
 if num_sibs == 0:
@@ -77,7 +77,16 @@ else:
     transit = "some beat up Chuck Taylor All Stars"
 
 #Money in bank assignment
-if birth_month
+if birth_month >=1 and birth_month < 5:
+    money_bank = "100,000.00"
+elif birth_month >=5 and birth_month <9:
+    money_bank = "200,000.00"
+elif birth_month >=9 and < 13:
+    money_bank = "300,000.00"
+else:
+    money_bank = "0.00"
+
+
 
 
 
