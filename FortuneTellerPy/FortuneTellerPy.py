@@ -18,7 +18,7 @@ birth_month = input("Like '1' for January, and so on.\n")
 quitter(birth_month)
 print()
 print("What is your favorite ROYGBIV color?")
-favorite_color = input.lower()("I can help if you type 'help'.\n")
+favorite_color = input.lower().strip()("I can help if you type 'help'.\n")
 print()
 while favorite_color == "help":
     #help prompt for favorite colors, with extra prompt
@@ -30,7 +30,7 @@ while favorite_color == "help":
     print("I = Indigo")
     print("V = Violet")
     print()
-    favorite_color = input.lower()("What is your favorite ROYGBIV color?\n")
+    favorite_color = input.lower().strip()("What is your favorite ROYGBIV color?\n")
 quitter(favorite_color)
 num_sibs = input("Okay, you are a trooper. One last question: how many siblings do you have?\n")
 quitter(num_sibs)
@@ -63,18 +63,21 @@ if (favorite_color == "r" or favorite_color == "red"):
     transit = "rocket boots"
 elif (favorite_color == "o" or favorite_color == "orange"):
     transit = "a sweet Caddy"
-elif (favorite_color == "o" or favorite_color == "orange"):
+elif (favorite_color == "y" or favorite_color == "yellow"):
     transit = "some European luxury car"
-elif (favorite_color == "o" or favorite_color == "orange"):
+elif (favorite_color == "g" or favorite_color == "green"):
     transit = "a hanglider"
-elif (favorite_color == "o" or favorite_color == "orange"):
+elif (favorite_color == "b" or favorite_color == "blue"):
     transit = "a flock of cats"
-elif (favorite_color == "o" or favorite_color == "orange"):
+elif (favorite_color == "i" or favorite_color == "indigo"):
     transit = "Santa's sleigh"
-elif (favorite_color == "o" or favorite_color == "orange"):
+elif (favorite_color == "v" or favorite_color == "violet"):
     transit = "an Oldsmobile 88"
 else:
     transit = "some beat up Chuck Taylor All Stars"
+
+#Money in bank assignment
+if birth_month
 
 
 
