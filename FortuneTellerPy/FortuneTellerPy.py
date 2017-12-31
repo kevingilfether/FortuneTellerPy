@@ -37,7 +37,7 @@ quitter(num_sibs)
 print()
 
 #Assignments of Retirement
-age = age.strip()
+age = int(age)
 if age % 2 == 0:
     years_to_retire = "14"
 elif age % 2 == 1:
@@ -46,7 +46,7 @@ else:
     years_to_retire = "239,102,839,494,039,392,038,174,777,773,824 (2.39 x 10^32)"
 
 #Vacation Home Assignments
-num_sibs = num_sibs.strip()
+num_sibs = int(num_sibs)
 if num_sibs == 0:
     vacation_home = "nowhere special, just Cabo San Lucas"
 elif num_sibs == 1:
@@ -80,7 +80,7 @@ else:
     transit = "some beat up Chuck Taylor All Stars"
 
 #Money in bank assignment
-birth_month = birth_month.strip
+birth_month = int(birth_month)
 if birth_month >=1 and birth_month < 5:
     money_bank = "100,000.00"
 elif birth_month >=5 and birth_month <9:
@@ -90,4 +90,4 @@ elif birth_month >=9 and birth_month < 13:
 else:
     money_bank = "0.00"
 
-print("{0} {1} will retire in {2} years with ${3} in the bank, a vacation home {4}, and {5}.", first_name, last_name, years_to_retire, money_bank, vacation_home, transit)
+print("{0} {1} will retire in {2} years with ${3} in the bank, a vacation home {4}, and {5}.".format( first_name, last_name, years_to_retire, money_bank, vacation_home, transit))
