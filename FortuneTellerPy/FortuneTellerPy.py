@@ -81,7 +81,7 @@ if birth_month >=1 and birth_month < 5:
     money_bank = "100,000.00"
 elif birth_month >=5 and birth_month <9:
     money_bank = "200,000.00"
-elif birth_month >=9 and < 13:
+elif birth_month >=9 and birth_month < 13:
     money_bank = "300,000.00"
 else:
     money_bank = "0.00"
