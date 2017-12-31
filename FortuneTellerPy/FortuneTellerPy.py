@@ -90,4 +90,4 @@ elif birth_month >=9 and birth_month < 13:
 else:
     money_bank = "0.00"
 
-print("{0} {1} will retire in {2} years with ${3} in the bank, a vacation home {4}, and {5}.".format( first_name, last_name, years_to_retire, money_bank, vacation_home, transit))
+print("{0} {1} will retire in {2} years with ${3} in the bank, \na vacation home {4}, and {5}.".format( first_name, last_name, years_to_retire, money_bank, vacation_home, transit))
