@@ -36,6 +36,28 @@ num_sibs = input("Okay, you are a trooper. One last question: how many siblings 
 quitter(num_sibs)
 print()
 
+#Assignments of Retirement
+if age % 2 == 0:
+    years_to_retire = 14
+else:
+    years_to_retire = 40
+
+#Vacation Home Assignments
+if num_sibs == 0:
+    vacation_home = "nowhere special, just Cabo San Lucas"
+elif num_sibs == 1:
+    vacation_home = "in a Lake Erie undersea palace"
+elif num_sibs == 2:
+    vacation_home = "on scenic the Moon"
+elif num_sibs == 3:
+    vacation_home = "of a really big bouncy house"
+elif num_sibs > 3:
+    vacation_home = "near Sting's house, wherever that is"
+else:
+    vacation_home = "on a rapidly melting artic glacier"
+    
+
+
 
 
 
